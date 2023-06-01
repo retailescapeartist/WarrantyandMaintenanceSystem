@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Warranty</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js">
+
+    </script>
+</head>
+<body>
+<button><a href="index.html">Back</a></button>
+<h1>Warranty Information: </h1>
+<div class="tiers">
+    <div id="iron">
+        <h4>Iron Plan</h4>
+        <button onclick="ironTier()" id="iron_plan">Details</button>
+        <div id="ironHiddenText">
+            <header>Powertrain Coverage</header>
+            <p>100 days or 5,000 miles</p>
+            <header>Non-Powertrain Coverage</header>
+            <p>100 days or 5,000 miles</p>
+            <p>Roadside assistance: <span>yes</span></p>
+            <p>First battery replacement is 15% off</p>
+            <button>Choose Plan</button>
+        </div>
+    </div>
+    <div id="gold">
+        <h4>Gold Plan</h4>
+        <button onclick="goldTier()" id="gold_plan">Details</button>
+        <div id="goldHiddenText">
+            <header>Powertrain Coverage</header>
+            <p>7 years or 100,000 miles</p>
+            <header>Non-Powertrain Coverage</header>
+            <p>For vehicles purchased withink <span>New Vehicle</span>
+                Limited Warranty period: extends New Vehicle Limited Warranty
+            to 4 years or 48,000 miles</p>
+            <p>For Vehicles purchased after <span>New Vehicle</span> Limited Warranty
+            has expired: 1 year or 12,000 from delivery date</p>
+            <p>Roadside assistance: <span>yes</span></p>
+            <p>First battery replacement is 30% off</p>
+            <button>Choose Plan</button>
+        </div>
+    </div>
+    <div id="diamond">
+        <h4>Diamond Plan</h4>
+        <button onclick="diamondTier()" id="diamond_plan">Details</button>
+        <div id="diamondHiddenText">
+            <header>Powertrain Coverage</header>
+            <p>7 years or 100,000 miles</p>
+            <header>Non-Powertrain Coverage</header>
+            <p>For vehicles purchased withink <span>New Vehicle</span>
+                Limited Warranty period: 5 years or 86,000 miles</p>
+            <p>Roadside assistance: <span>yes</span></p>
+            <p>First battery replacement is free</p>
+            <button>Choose Plan</button>
+        </div>
+    </div>
+</div>
+</body>
+</html>

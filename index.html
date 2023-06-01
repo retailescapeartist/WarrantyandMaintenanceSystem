@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Warranty and Maintenance System</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js">
+
+    </script>
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+    <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <script src="http://ajax.aspnetcdn.com/ajax/mobileservices/MobileServices.Web-1.2.5.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+
+</head>
+<body>
+<header>
+    <h1>Warranty and Maintenance System</h1>
+</header>
+
+<section class="userContainer">
+    <div class="newUser" id="new_user">
+        <h4>New Customer</h4>
+        <form name="newC" id="newC" action="warranty.html">
+            <label for="fname">First Name:</label>
+            <input type="text" id="fname" name="fname" required >
+            <br>
+            <label for="lname">Last Name:</label>
+            <input type="text" id="lname" name="lname" required>
+            <br>
+            <label for="address">Address:</label>
+            <input type="text" id="address" name="address" required>
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <br>
+            <label for="phone">Phone number:</label>
+            <input type="tel" id="phone" name="phone" required>
+            <br>
+            <input type=submit value="submit">
+        </form>
+    </div>
+
+    <div class="returningUser">
+        <h4>Returning Customer</h4>
+        <form name="returningC" id="returningC" action="maintenance.html">
+            <label for="fname">First Name:</label>
+            <input type="text" id="fname" name="fname" required>
+            <br>
+            <label for="lname">Last Name:</label>
+            <input type="text" id="lname" name="lname" required>
+            <br>
+            <label for="accountNumber">Account #:</label>
+            <input type="text" id="accountNumber" name="accountNumber" required>
+            <br>
+            <label for="purchaseDate">Purchase Date:</label>
+            <input type="date" id="purchaseDate" name="purchaseDate" required>
+            <br>
+            <label for="coverageTier">Coverage Plan: </label>
+            <input type="text" id="coverageTier" name="coverageTier" required>
+            <br>
+            <input type=submit value="submit">
+        </form>
+    </div>
+</section>
+
+<footer>
+    copyright &copy 2023
+</footer>
+</body>
+</html>
+
+<!-- Warranty and Maintenance System is the title page. You are required to fill out either of the forms.
+The new customer form brings you to the warranty selection, where you can view the different plans.
+The returning customer form brings you to the maintenance page. This is where you can check all the services you want, and the total will update.
+Making the site look pretty will be next task.
+-->

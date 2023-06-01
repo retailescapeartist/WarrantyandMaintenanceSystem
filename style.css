@@ -1,0 +1,36 @@
+.userContainer {
+    margin: auto;
+    display: flex;
+    gap: 20px;
+}
+
+#ironHiddenText {
+    display: none;
+}
+
+#goldHiddenText {
+    display: none;
+}
+
+#diamondHiddenText {
+    display: none;
+}
+
+#returnUserButton {
+    display: none;
+}
+
+
+
+#prices td {
+    background-color: #cfc;
+    margin: 10px;
+    padding: 10px;
+    text-align: right;
+    width: 100px;
+}
+#prices tr:last-child td {
+    background-color: #090;
+    color: #fff;
+    font-weight: bold;
+}
